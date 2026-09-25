@@ -26,20 +26,18 @@ Azure 上で AI、生成 AI、機械学習を活用するための公式情報�
 
 ### 公式ドキュメント / Official Documentation
 
-- [Azure AI](https://learn.microsoft.com/ja-jp/azure/ai-services/) — Azure AI サービスの概要
-- [Azure AI Foundry](https://learn.microsoft.com/ja-jp/azure/ai-foundry/) — AI アプリケーションの開発・評価・運用
-- [Azure OpenAI Service](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/) — Azure OpenAI の公式ドキュメント
+- [Microsoft Foundry](https://learn.microsoft.com/ja-jp/azure/foundry/) — AI アプリ・エージェントの開発・評価・運用（旧 Azure AI Foundry / Azure AI サービス / Azure OpenAI のドキュメントを統合）
 - [Azure Machine Learning](https://learn.microsoft.com/ja-jp/azure/machine-learning/) — 機械学習モデルの開発と運用
 - [Azure AI Search](https://learn.microsoft.com/ja-jp/azure/search/) — 検索拡張生成（RAG）で利用できる検索サービス
-- [Responsible AI](https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/innovate/best-practices/responsible-ai) — 責任ある AI の設計指針
+- [Responsible AI](https://learn.microsoft.com/ja-jp/azure/ai-foundry/responsible-use-of-ai-overview) — Microsoft Foundry における責任ある AI
 
 ### GitHub / Samples
 
 - [Azure-Samples](https://github.com/Azure-Samples) — Azure の公式サンプル集
 - [azure-ai-docs](https://github.com/MicrosoftDocs/azure-ai-docs) — Azure AI ドキュメント
 - [azureml-examples](https://github.com/Azure/azureml-examples) — Azure Machine Learning サンプル
-- [ai-foundry-samples](https://github.com/Azure-Samples/ai-foundry-samples) — Azure AI Foundry サンプル
-- [azure-openai-samples](https://github.com/Azure-Samples/azure-openai-samples) — Azure OpenAI サンプル
+- [foundry-samples](https://github.com/microsoft-foundry/foundry-samples) — Microsoft Foundry サンプル
+- [Azure-Samples/openai](https://github.com/Azure-Samples/openai) — Azure OpenAI サンプル
 
 ## Dynamics 365 / Power Platform
 
@@ -59,8 +57,8 @@ Azure 上で AI、生成 AI、機械学習を活用するための公式情報�
 
 ### GitHub / Samples
 
-- [dynamics-365-docs](https://github.com/MicrosoftDocs/dynamics-365-docs) — Dynamics 365 ドキュメント
-- [power-platform-docs](https://github.com/MicrosoftDocs/power-platform-docs) — Power Platform ドキュメント
+- [dynamics-365-customer-engagement](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement) — Dynamics 365 Customer Engagement ドキュメント
+- [power-platform](https://github.com/MicrosoftDocs/power-platform) — Power Platform ドキュメント
 - [PowerPlatformConnectors](https://github.com/microsoft/PowerPlatformConnectors) — コネクタ定義とサンプル
 - [powerapps-docs](https://github.com/MicrosoftDocs/powerapps-docs) — Power Apps ドキュメント
 - [powerautomate-docs](https://github.com/MicrosoftDocs/power-automate-docs) — Power Automate ドキュメント
@@ -85,11 +83,10 @@ AI と業務データを安全に扱うための、認証、認可、脅威対�
 
 ### GitHub / Tools
 
-- [azure-security-docs](https://github.com/MicrosoftDocs/azure-security-docs) — Azure セキュリティドキュメント
 - [entra-docs](https://github.com/MicrosoftDocs/entra-docs) — Microsoft Entra ドキュメント
-- [Threat-Modeling-Tool](https://github.com/microsoft/Threat-Modeling-Tool) — 脅威モデリングツール
+- [Threat Modeling Tool](https://learn.microsoft.com/ja-jp/azure/security/develop/threat-modeling-tool) — 脅威モデリングツール
 - [azure-policy](https://github.com/Azure/azure-policy) — Azure Policy のサンプル
-- [Azure-Security-Center](https://github.com/Azure/Azure-Security-Center) — セキュリティ関連サンプル
+- [Microsoft-Defender-for-Cloud](https://github.com/Azure/Microsoft-Defender-for-Cloud) — Defender for Cloud のポリシー・ワークブック・自動化サンプル
 
 ## SDK / Samples / Tools
 
@@ -99,10 +96,10 @@ AI と業務データを安全に扱うための、認証、認可、脅威対�
 - [Azure SDK for Java](https://github.com/Azure/azure-sdk-for-java) — Java SDK
 - [Azure SDK for Go](https://github.com/Azure/azure-sdk-for-go) — Go SDK
 - [Azure Quickstart Templates](https://github.com/Azure/azure-quickstart-templates) — ARM テンプレート
-- [Azure Verified Modules](https://github.com/Azure/terraform-azurerm-avm-res) — Terraform モジュール
+- [Azure Verified Modules](https://github.com/Azure/Azure-Verified-Modules) — Bicep / Terraform の公式 IaC モジュール
 - [Bicep](https://github.com/Azure/bicep) — Azure リソースをコードで管理する IaC ツール
 - [Azure CLI](https://github.com/Azure/azure-cli) — Azure コマンドラインツール
-- [Azure Functions Samples](https://github.com/Azure/azure-functions-samples) — サーバーレス実装サンプル
+- [Azure Functions Templates](https://github.com/Azure/azure-functions-templates) — サーバーレス関数テンプレート
 
 ## Architecture / Cloud Adoption
 
@@ -114,7 +111,7 @@ AI と業務データを安全に扱うための、認証、認可、脅威対�
 - [Azure Well-Architected Framework](https://learn.microsoft.com/ja-jp/azure/well-architected/) — 信頼性・セキュリティ・コスト最適化
 - [Cloud Adoption Framework](https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/) — クラウド導入・統制の方法論
 - [Azure Design Patterns](https://learn.microsoft.com/ja-jp/azure/architecture/patterns/) — クラウド設計パターン
-- [Enterprise-Scale](https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/ready/enterprise-scale/) — 大規模 Azure 基盤の設計
+- [Landing Zone 実装オプション](https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/ready/landing-zone/implementation-options) — Bicep / Terraform / AVM による大規模 Azure 基盤の実装
 - [Azure Landing Zones](https://learn.microsoft.com/ja-jp/azure/cloud-adoption-framework/ready/landing-zone/) — セキュアな Azure 基盤
 
 ## 学習リソース / Learning Resources
@@ -126,7 +123,7 @@ AI と業務データを安全に扱うための、認証、認可、脅威対�
 - [Azure AI 学習](https://learn.microsoft.com/ja-jp/training/browse/?products=azure&terms=ai) — Azure AI の学習コンテンツ
 - [Dynamics 365 学習](https://learn.microsoft.com/ja-jp/training/browse/?products=dynamics) — Dynamics 365 の学習コンテンツ
 - [Security 学習](https://learn.microsoft.com/ja-jp/training/browse/?terms=security) — セキュリティ関連の学習
-- [Azure 認定資格](https://learn.microsoft.com/ja-jp/credentials/certifications/azure-list) — Azure 認定資格一覧
+- [Azure 認定資格](https://learn.microsoft.com/ja-jp/credentials/browse/?products=azure) — Azure 認定資格一覧
 
 ### 日本語の学習観点 / Recommended Learning Path
 
@@ -139,7 +136,7 @@ AI と業務データを安全に扱うための、認証、認可、脅威対�
 
 ## 日本語コミュニティ / Japanese Communities
 
-- [Azure Japan Community](https://azure.microsoft.com/ja-jp/community/) — Azure の公式コミュニティ情報
+- [JAZUG（Japan Azure User Group）](https://jazug.connpass.com/) — 日本の Azure ユーザーグループ
 - [Microsoft Tech Community](https://techcommunity.microsoft.com/) — Microsoft 製品の技術記事とディスカッション
 - [Microsoft Security Blog](https://www.microsoft.com/security/blog/) — Microsoft セキュリティの最新情報
 - [Microsoft Reactor](https://developer.microsoft.com/ja-jp/reactor/) — 技術イベントと学習コンテンツ
@@ -180,4 +177,4 @@ Issue や Pull Request では、追加理由と対象カテゴリを記載して
 
 ## License
 
-このリストの構成・編集物は [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) とします。リンク先の各リソースには、それぞれのライセンス・利用条件が適用されます。
+このリストの構成・編集物は [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) とします（[LICENSE](LICENSE)）。リンク先の各リソースには、それぞれのライセンス・利用条件が適用されます。
