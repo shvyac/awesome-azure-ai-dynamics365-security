@@ -29,6 +29,7 @@ Azure 上で AI、生成 AI、機械学習を活用するための公式情報�
 
 - [Microsoft Foundry](https://learn.microsoft.com/ja-jp/azure/foundry/) — AI アプリ・エージェントの開発・評価・運用（旧 Azure AI Foundry / Azure AI サービス / Azure OpenAI のドキュメントを統合）
 - [Azure Machine Learning](https://learn.microsoft.com/ja-jp/azure/machine-learning/) — 機械学習モデルの開発と運用
+- [Foundry Local](https://learn.microsoft.com/ja-jp/azure/foundry-local/) ![New](https://img.shields.io/badge/-NEW-red?style=flat) — Windows・macOS・Linux の端末上でモデルを実行するオンデバイス AI ランタイム（OpenAI 互換 API、2026 年 4 月 GA）
 - [Azure AI Search](https://learn.microsoft.com/ja-jp/azure/search/) — 検索拡張生成（RAG）で利用できる検索サービス
 - [Responsible AI](https://learn.microsoft.com/ja-jp/azure/ai-foundry/responsible-use-of-ai-overview) — Microsoft Foundry における責任ある AI
 
@@ -39,6 +40,7 @@ Azure 上で AI、生成 AI、機械学習を活用するための公式情報�
 - [azureml-examples](https://github.com/Azure/azureml-examples) — Azure Machine Learning サンプル
 - [foundry-samples](https://github.com/microsoft-foundry/foundry-samples) — Microsoft Foundry サンプル
 - [Azure-Samples/openai](https://github.com/Azure-Samples/openai) — Azure OpenAI サンプル
+- [Foundry Local](https://github.com/microsoft/foundry-local) ![New](https://img.shields.io/badge/-NEW-red?style=flat) ![GitHub stars](https://img.shields.io/github/stars/microsoft/foundry-local?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F11%2F03-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/microsoft/foundry-local?style=flat) — Foundry Local の SDK（Python／JavaScript／C#／Rust、MIT ライセンス）とサンプル
 
 ## Dynamics 365 / Power Platform
 
@@ -199,10 +201,12 @@ All curated lists maintained by [shvyac](https://github.com/shvyac):
 - [awesome-local-llm](https://github.com/shvyac/awesome-local-llm) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-local-llm?style=flat&label=%E2%AD%90)
 - [awesome-m5stack-arduino](https://github.com/shvyac/awesome-m5stack-arduino) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-m5stack-arduino?style=flat&label=%E2%AD%90)
 - [awesome-map-gis](https://github.com/shvyac/awesome-map-gis) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-map-gis?style=flat&label=%E2%AD%90)
+- [awesome-mcp-ai](https://github.com/shvyac/awesome-mcp-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-mcp-ai?style=flat&label=%E2%AD%90)
 - [awesome-meshless-cae](https://github.com/shvyac/awesome-meshless-cae) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-meshless-cae?style=flat&label=%E2%AD%90)
 - [awesome-online-services](https://github.com/shvyac/awesome-online-services) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-online-services?style=flat&label=%E2%AD%90)
 - [awesome-open-source-solvers](https://github.com/shvyac/awesome-open-source-solvers) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-open-source-solvers?style=flat&label=%E2%AD%90)
 - [awesome-osint-ai](https://github.com/shvyac/awesome-osint-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-osint-ai?style=flat&label=%E2%AD%90)
+- [awesome-quantum](https://github.com/shvyac/awesome-quantum) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-quantum?style=flat&label=%E2%AD%90)
 - [awesome-redmine-ai](https://github.com/shvyac/awesome-redmine-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-redmine-ai?style=flat&label=%E2%AD%90)
 - [awesome-requirements-system-ai](https://github.com/shvyac/awesome-requirements-system-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-requirements-system-ai?style=flat&label=%E2%AD%90)
 - [awesome-trading-stock](https://github.com/shvyac/awesome-trading-stock) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-trading-stock?style=flat&label=%E2%AD%90)
