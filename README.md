@@ -6,6 +6,10 @@ Microsoft Azure AI、Dynamics 365、Power Platform、Identity、Security に関�
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+> ⭐ badges show live GitHub star counts (via shields.io); release badges show the date of the latest GitHub release (YYYY/MM/DD, as of the last refresh); last-commit badges show live commit activity (via shields.io).
+>
+> ⭐ バッジは GitHub のスター数をリアルタイム表示します(shields.io)。release バッジは GitHub の最新リリース日(YYYY/MM/DD、最終更新時点)を示します。last commit バッジは最新コミット日をリアルタイム表示します(shields.io)。
+
 ## 目次 / Table of Contents
 
 - [Azure AI / OpenAI / Machine Learning](#azure-ai--openai--machine-learning)
@@ -29,18 +33,19 @@ Azure 上で AI、生成 AI、機械学習を活用するための公式情報�
 
 - [Microsoft Foundry](https://learn.microsoft.com/ja-jp/azure/foundry/) — AI アプリ・エージェントの開発・評価・運用（旧 Azure AI Foundry / Azure AI サービス / Azure OpenAI のドキュメントを統合）
 - [Azure Machine Learning](https://learn.microsoft.com/ja-jp/azure/machine-learning/) — 機械学習モデルの開発と運用
-- [Foundry Local](https://learn.microsoft.com/ja-jp/azure/foundry-local/) ![New](https://img.shields.io/badge/-NEW-red?style=flat) — Windows・macOS・Linux の端末上でモデルを実行するオンデバイス AI ランタイム（OpenAI 互換 API、2026 年 4 月 GA）
+- [Foundry Local](https://learn.microsoft.com/ja-jp/azure/foundry-local/) — Windows・macOS・Linux の端末上でモデルを実行するオンデバイス AI ランタイム（OpenAI 互換 API、2026 年 4 月 GA）
 - [Azure AI Search](https://learn.microsoft.com/ja-jp/azure/search/) — 検索拡張生成（RAG）で利用できる検索サービス
 - [Responsible AI](https://learn.microsoft.com/ja-jp/azure/ai-foundry/responsible-use-of-ai-overview) — Microsoft Foundry における責任ある AI
 
 ### GitHub / Samples
 
 - [Azure-Samples](https://github.com/Azure-Samples) — Azure の公式サンプル集
-- [azure-ai-docs](https://github.com/MicrosoftDocs/azure-ai-docs) — Azure AI ドキュメント
-- [azureml-examples](https://github.com/Azure/azureml-examples) — Azure Machine Learning サンプル
-- [foundry-samples](https://github.com/microsoft-foundry/foundry-samples) — Microsoft Foundry サンプル
-- [Azure-Samples/openai](https://github.com/Azure-Samples/openai) — Azure OpenAI サンプル
-- [Foundry Local](https://github.com/microsoft/foundry-local) ![New](https://img.shields.io/badge/-NEW-red?style=flat) ![GitHub stars](https://img.shields.io/github/stars/microsoft/foundry-local?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F11%2F03-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/microsoft/foundry-local?style=flat) — Foundry Local の SDK（Python／JavaScript／C#／Rust、MIT ライセンス）とサンプル
+- [azure-ai-docs](https://github.com/MicrosoftDocs/azure-ai-docs) ![GitHub stars](https://img.shields.io/github/stars/MicrosoftDocs/azure-ai-docs?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/MicrosoftDocs/azure-ai-docs?style=flat) — Azure AI ドキュメント
+- [azureml-examples](https://github.com/Azure/azureml-examples) ![GitHub stars](https://img.shields.io/github/stars/Azure/azureml-examples?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/Azure/azureml-examples?style=flat) — Azure Machine Learning サンプル
+- [foundry-samples](https://github.com/microsoft-foundry/foundry-samples) ![GitHub stars](https://img.shields.io/github/stars/microsoft-foundry/foundry-samples?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/microsoft-foundry/foundry-samples?style=flat) — Microsoft Foundry サンプル
+- [Azure-Samples/openai](https://github.com/Azure-Samples/openai) ![GitHub stars](https://img.shields.io/github/stars/Azure-Samples/openai?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/Azure-Samples/openai?style=flat) — Azure OpenAI サンプル
+- [Foundry Local](https://github.com/microsoft/foundry-local) ![GitHub stars](https://img.shields.io/github/stars/microsoft/foundry-local?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F11%2F03-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/microsoft/foundry-local?style=flat) — Foundry Local の SDK（Python／JavaScript／C#／Rust、MIT ライセンス）とサンプル
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) ![New](https://img.shields.io/badge/-NEW-red?style=flat) ![GitHub stars](https://img.shields.io/github/stars/microsoft/agent-framework?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/microsoft/agent-framework?style=flat) — Semantic Kernel と AutoGen の後継となる .NET / Python 向けオープンソースのエージェント開発フレームワーク（2026 年 4 月に 1.0 GA、マルチエージェントのワークフローや MCP に対応）
 
 ## Dynamics 365 / Power Platform
 
@@ -57,14 +62,15 @@ Azure 上で AI、生成 AI、機械学習を活用するための公式情報�
 - [Power Automate](https://learn.microsoft.com/ja-jp/power-automate/) — ワークフローと業務自動化
 - [Power BI](https://learn.microsoft.com/ja-jp/power-bi/) — データ分析と可視化
 - [Copilot Studio](https://learn.microsoft.com/ja-jp/microsoft-copilot-studio/) — AI エージェントの構築
+- [Dataverse MCP サーバー](https://learn.microsoft.com/ja-jp/power-apps/maker/data-platform/data-platform-mcp) ![New](https://img.shields.io/badge/-NEW-red?style=flat) — Copilot Studio、GitHub Copilot、Claude などの MCP クライアントから Dataverse のテーブルやデータを操作する
 
 ### GitHub / Samples
 
-- [dynamics-365-customer-engagement](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement) — Dynamics 365 Customer Engagement ドキュメント
-- [power-platform](https://github.com/MicrosoftDocs/power-platform) — Power Platform ドキュメント
-- [PowerPlatformConnectors](https://github.com/microsoft/PowerPlatformConnectors) — コネクタ定義とサンプル
-- [powerapps-docs](https://github.com/MicrosoftDocs/powerapps-docs) — Power Apps ドキュメント
-- [powerautomate-docs](https://github.com/MicrosoftDocs/power-automate-docs) — Power Automate ドキュメント
+- [dynamics-365-customer-engagement](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement) ![GitHub stars](https://img.shields.io/github/stars/MicrosoftDocs/dynamics-365-customer-engagement?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/MicrosoftDocs/dynamics-365-customer-engagement?style=flat) — Dynamics 365 Customer Engagement ドキュメント
+- [power-platform](https://github.com/MicrosoftDocs/power-platform) ![GitHub stars](https://img.shields.io/github/stars/MicrosoftDocs/power-platform?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/MicrosoftDocs/power-platform?style=flat) — Power Platform ドキュメント
+- [PowerPlatformConnectors](https://github.com/microsoft/PowerPlatformConnectors) ![GitHub stars](https://img.shields.io/github/stars/microsoft/PowerPlatformConnectors?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/microsoft/PowerPlatformConnectors?style=flat) — コネクタ定義とサンプル
+- [powerapps-docs](https://github.com/MicrosoftDocs/powerapps-docs) ![GitHub stars](https://img.shields.io/github/stars/MicrosoftDocs/powerapps-docs?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/MicrosoftDocs/powerapps-docs?style=flat) — Power Apps ドキュメント
+- [powerautomate-docs](https://github.com/MicrosoftDocs/power-automate-docs) ![GitHub stars](https://img.shields.io/github/stars/MicrosoftDocs/power-automate-docs?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/MicrosoftDocs/power-automate-docs?style=flat) — Power Automate ドキュメント
 
 ## Security / Identity / Governance
 
@@ -86,23 +92,23 @@ AI と業務データを安全に扱うための、認証、認可、脅威対�
 
 ### GitHub / Tools
 
-- [entra-docs](https://github.com/MicrosoftDocs/entra-docs) — Microsoft Entra ドキュメント
+- [entra-docs](https://github.com/MicrosoftDocs/entra-docs) ![GitHub stars](https://img.shields.io/github/stars/MicrosoftDocs/entra-docs?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/MicrosoftDocs/entra-docs?style=flat) — Microsoft Entra ドキュメント
 - [Threat Modeling Tool](https://learn.microsoft.com/ja-jp/azure/security/develop/threat-modeling-tool) — 脅威モデリングツール
-- [azure-policy](https://github.com/Azure/azure-policy) — Azure Policy のサンプル
-- [Microsoft-Defender-for-Cloud](https://github.com/Azure/Microsoft-Defender-for-Cloud) — Defender for Cloud のポリシー・ワークブック・自動化サンプル
+- [azure-policy](https://github.com/Azure/azure-policy) ![GitHub stars](https://img.shields.io/github/stars/Azure/azure-policy?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/Azure/azure-policy?style=flat) — Azure Policy のサンプル
+- [Microsoft-Defender-for-Cloud](https://github.com/Azure/Microsoft-Defender-for-Cloud) ![GitHub stars](https://img.shields.io/github/stars/Azure/Microsoft-Defender-for-Cloud?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/Azure/Microsoft-Defender-for-Cloud?style=flat) — Defender for Cloud のポリシー・ワークブック・自動化サンプル
 
 ## SDK / Samples / Tools
 
-- [Azure SDK for .NET](https://github.com/Azure/azure-sdk-for-net) — .NET SDK
-- [Azure SDK for Python](https://github.com/Azure/azure-sdk-for-python) — Python SDK
-- [Azure SDK for JavaScript](https://github.com/Azure/azure-sdk-for-js) — JavaScript / TypeScript SDK
-- [Azure SDK for Java](https://github.com/Azure/azure-sdk-for-java) — Java SDK
-- [Azure SDK for Go](https://github.com/Azure/azure-sdk-for-go) — Go SDK
-- [Azure Quickstart Templates](https://github.com/Azure/azure-quickstart-templates) — ARM テンプレート
-- [Azure Verified Modules](https://github.com/Azure/Azure-Verified-Modules) — Bicep / Terraform の公式 IaC モジュール
-- [Bicep](https://github.com/Azure/bicep) — Azure リソースをコードで管理する IaC ツール
-- [Azure CLI](https://github.com/Azure/azure-cli) — Azure コマンドラインツール
-- [Azure Functions Templates](https://github.com/Azure/azure-functions-templates) — サーバーレス関数テンプレート
+- [Azure SDK for .NET](https://github.com/Azure/azure-sdk-for-net) ![GitHub stars](https://img.shields.io/github/stars/Azure/azure-sdk-for-net?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/Azure/azure-sdk-for-net?style=flat) — .NET SDK
+- [Azure SDK for Python](https://github.com/Azure/azure-sdk-for-python) ![GitHub stars](https://img.shields.io/github/stars/Azure/azure-sdk-for-python?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/Azure/azure-sdk-for-python?style=flat) — Python SDK
+- [Azure SDK for JavaScript](https://github.com/Azure/azure-sdk-for-js) ![GitHub stars](https://img.shields.io/github/stars/Azure/azure-sdk-for-js?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/Azure/azure-sdk-for-js?style=flat) — JavaScript / TypeScript SDK
+- [Azure SDK for Java](https://github.com/Azure/azure-sdk-for-java) ![GitHub stars](https://img.shields.io/github/stars/Azure/azure-sdk-for-java?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/Azure/azure-sdk-for-java?style=flat) — Java SDK
+- [Azure SDK for Go](https://github.com/Azure/azure-sdk-for-go) ![GitHub stars](https://img.shields.io/github/stars/Azure/azure-sdk-for-go?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/Azure/azure-sdk-for-go?style=flat) — Go SDK
+- [Azure Quickstart Templates](https://github.com/Azure/azure-quickstart-templates) ![GitHub stars](https://img.shields.io/github/stars/Azure/azure-quickstart-templates?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/Azure/azure-quickstart-templates?style=flat) — ARM テンプレート
+- [Azure Verified Modules](https://github.com/Azure/Azure-Verified-Modules) ![GitHub stars](https://img.shields.io/github/stars/Azure/Azure-Verified-Modules?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/Azure/Azure-Verified-Modules?style=flat) — Bicep / Terraform の公式 IaC モジュール
+- [Bicep](https://github.com/Azure/bicep) ![GitHub stars](https://img.shields.io/github/stars/Azure/bicep?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/Azure/bicep?style=flat) — Azure リソースをコードで管理する IaC ツール
+- [Azure CLI](https://github.com/Azure/azure-cli) ![GitHub stars](https://img.shields.io/github/stars/Azure/azure-cli?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/Azure/azure-cli?style=flat) — Azure コマンドラインツール
+- [Azure Functions Templates](https://github.com/Azure/azure-functions-templates) ![GitHub stars](https://img.shields.io/github/stars/Azure/azure-functions-templates?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/Azure/azure-functions-templates?style=flat) — サーバーレス関数テンプレート
 
 ## Architecture / Cloud Adoption
 
@@ -186,9 +192,12 @@ Issue や Pull Request では、追加理由と対象カテゴリを記載して
 
 All curated lists maintained by [shvyac](https://github.com/shvyac):
 
+- [awesome-ai-dev-tools](https://github.com/shvyac/awesome-ai-dev-tools) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ai-dev-tools?style=flat&label=%E2%AD%90)
 - [awesome-AI-Powered-Executive-Dashboards](https://github.com/shvyac/awesome-AI-Powered-Executive-Dashboards) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-AI-Powered-Executive-Dashboards?style=flat&label=%E2%AD%90)
 - [awesome-ai-tool-for-mechanical-engineering](https://github.com/shvyac/awesome-ai-tool-for-mechanical-engineering) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ai-tool-for-mechanical-engineering?style=flat&label=%E2%AD%90)
 - [awesome-audio-softwares](https://github.com/shvyac/awesome-audio-softwares) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-audio-softwares?style=flat&label=%E2%AD%90)
+- [awesome-automotive-cae](https://github.com/shvyac/awesome-automotive-cae) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-automotive-cae?style=flat&label=%E2%AD%90)
+- [awesome-automotive-todo-mcp](https://github.com/shvyac/awesome-automotive-todo-mcp) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-automotive-todo-mcp?style=flat&label=%E2%AD%90)
 - [awesome-azure-ai-dynamics365-security](https://github.com/shvyac/awesome-azure-ai-dynamics365-security) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-azure-ai-dynamics365-security?style=flat&label=%E2%AD%90)
 - [awesome-ballroom-dance](https://github.com/shvyac/awesome-ballroom-dance) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ballroom-dance?style=flat&label=%E2%AD%90)
 - [awesome-cad-cae](https://github.com/shvyac/awesome-cad-cae) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-cad-cae?style=flat&label=%E2%AD%90)
@@ -211,3 +220,4 @@ All curated lists maintained by [shvyac](https://github.com/shvyac):
 - [awesome-redmine-ai](https://github.com/shvyac/awesome-redmine-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-redmine-ai?style=flat&label=%E2%AD%90)
 - [awesome-requirements-system-ai](https://github.com/shvyac/awesome-requirements-system-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-requirements-system-ai?style=flat&label=%E2%AD%90)
 - [awesome-trading-stock](https://github.com/shvyac/awesome-trading-stock) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-trading-stock?style=flat&label=%E2%AD%90)
+- [awesome-web-app-design](https://github.com/shvyac/awesome-web-app-design) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-web-app-design?style=flat&label=%E2%AD%90)
